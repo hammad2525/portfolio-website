@@ -1,0 +1,152 @@
+body{
+    background-color: silver;
+}
+
+nav{
+    color: black;
+    background-color: darksalmon;
+    width: 100%;
+    top: 0px;
+    height: 6em;
+    position: fixed;
+    
+    left: 0;
+    margin-top: 0;
+    text-align: start;
+}
+nav ul{
+    list-style: none;
+    right: 2em;
+}
+nav ul li{
+    display: inline-block;
+    font-size: 2em;
+
+    float: right;
+    margin-right: 1em;
+
+}
+a :hover{
+  color: hotpink;
+}
+#my-img{
+
+    width: 65px;
+    border: 3px solid black;
+    border-radius: 40%;
+    margin-left: 10%;
+    padding: 2px;
+}
+
+
+
+.description{
+    display: inline-block;
+    margin-top: 12%;
+    margin-left: 3%;
+    color: #8b4513;
+    position: absolute;
+    text-align: center;
+    
+}
+div ol{
+    font-size: 1.3em;
+    line-height: 33px;
+    float: none;
+    text-align: center;
+    list-style-position: inside;
+}
+.contact-box{
+
+    width: 30%;
+   
+    top: 150%;
+    left: 50%;
+    margin-bottom: 10px;
+    transform: translate(-50%,-50%);
+    position: absolute;
+}
+form{
+    margin: 15px;
+}
+.input-field{
+
+    width: 400px;
+    height: 40px;
+    margin: bottom 20px ;
+    margin-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 1p solid #777;
+    border-radius: 14px;
+    outline: none;
+}
+.input-field1{
+    width: 400px;
+    height: 140px;
+    margin: bottom 20px ;
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 1p solid #777;
+    border-radius: 14px;
+    outline: none;
+    margin-top: 20px;
+
+}
+.btn{
+
+    padding: 20px;
+    background-color:green;
+    color: white;
+    
+    margin-top: 500px;
+    margin-bottom: 50px;
+    margin-left: 80%;
+    border-radius: 50%;
+    font-size: 12px;
+    border-style: none;
+}
+footer {
+    text-align: center;
+    padding: 13px;
+    background-color: DarkSalmon;
+    width: 100%;
+    color: white;
+    bottom: 10px;
+   
+    margin-top: 0px;
+  
+  }
+footer ul li{
+
+    display: inline-block;
+    
+}
+
+  .fa {
+    padding: 20px;
+  text-align: center;
+    margin: 5px 2px;
+    font-size: 30px;
+    width: 50px;
+  }
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;}
+    .fa-linkedin {
+        background: #007bb5;
+        color: white;
+      }
+      .fa-instagram {
+        background: #125688;
+        color: white;
+      }
+      .fa-youtube {
+        background: #bb0000;
+        color: white;
+      }
